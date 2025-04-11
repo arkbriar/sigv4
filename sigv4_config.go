@@ -26,6 +26,7 @@ type SigV4Config struct {
 	SecretKey          Secret `yaml:"secret_key,omitempty"`
 	Profile            string `yaml:"profile,omitempty"`
 	RoleARN            string `yaml:"role_arn,omitempty"`
+	ExternalID         string `yaml:"external_id,omitempty"`
 	UseFIPSSTSEndpoint bool   `yaml:"use_fips_sts_endpoint,omitempty"`
 }
 
